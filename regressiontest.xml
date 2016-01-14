@@ -1,0 +1,8 @@
+<suite name = "Regression testsuite">
+<test name = "Regression testcases">
+<classes>
+ <class name = "com.knorex.application.UserManagement"/>
+ <class name ="com.knorex.application.CampaignManagement"/>
+</classes>
+</test>
+</suite>

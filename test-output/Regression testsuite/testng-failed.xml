@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression testsuite]">
+  <test name="Regression testcases(failed)">
+    <classes>
+      <class name="com.knorex.application.CampaignManagement">
+        <methods>
+          <include name="normalcampaign"/>
+        </methods>
+      </class> <!-- com.knorex.application.CampaignManagement -->
+      <class name="com.knorex.application.UserManagement">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.knorex.application.UserManagement -->
+    </classes>
+  </test> <!-- Regression testcases(failed) -->
+</suite> <!-- Failed suite [Regression testsuite] -->
